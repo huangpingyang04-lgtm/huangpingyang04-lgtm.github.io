@@ -1,122 +1,109 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+# GitHub Pages 地址。仓库名或自定义域名变化后，请同步替换这里。
+baseURL: "https://huangpingyang04-lgtm.github.io/"
+title: 黄平洋
 theme: PaperMod
+languageCode: zh-cn
+defaultContentLanguage: zh
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
   pagerSize: 20
 
-taxonomies:
-    tag: tags
-
 menu:
-    main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+  main:
+    - name: 首页
+      url: /
+      weight: 1
+    - name: 教育背景
+      url: education/
+      weight: 2
+    - name: 科研经历
+      url: research/
+      weight: 3
+    - name: 论文与成果
+      url: publications/
+      weight: 4
+    - name: 竞赛与荣誉
+      url: honors/
+      weight: 5
+    - name: 综合素质
+      url: qualities/
+      weight: 6
+    - name: 简历
+      url: cv/
+      weight: 7
+    - name: 联系方式
+      url: contact/
+      weight: 8
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
-    # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
-    defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
-          enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+  description: "黄平洋的个人学术主页，用于展示教育背景、科研经历、论文成果、竞赛荣誉和联系方式。"
+  author: 黄平洋
+  DateFormat: "2006-01-02"
+  defaultTheme: light
+  hideFooter: false
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+  MainSections: []
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+  profileMode:
+    enabled: true
+    title: 黄平洋
+    subtitle: "大连理工大学光电信息科学与工程专业本科生。目前处于保研升学阶段，主要关注第三代半导体器件、忆阻器、分布式光纤传感与轻量化智能模型等方向，正在开展 Ag/GaN/ITO 忆阻器、DAS 多事件识别及器件约束神经网络相关研究。"
+    # 头像预留位置：将个人头像放入 static/images/avatar.jpg 后，可取消下一行注释。
+    # imageUrl: "images/avatar.jpg"
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: 科研经历
+        url: research/
+      - name: 论文与成果
+        url: publications/
+      - name: 下载个人简历 PDF
+        url: cv.pdf
+      - name: 联系我
+        url: contact/
 
-    socialIcons:
-        - name: CV
-          url: cv.pdf
-        - name: Email
-          url: mailto:user@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/user
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=user
-        - name: GitHub
-          url: https://github.com/user
-        - name: YouTube
-          url: https://www.youtube.com/@user
-        - name: Substack
-          url: https://user.substack.com
-        - name: Twitter
-          url: https://x.com/user
-        - name: Bluesky
-          url: https://bsky.app/profile/user.bsky.social
+  socialIcons:
+    - name: CV
+      url: cv.pdf
+    - name: Email
+      url: mailto:hpy_dut@163.com
+    - name: GitHub
+      url: "#"
 
-    assets:
-        disableScrollBarStyle: true
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
-    label:
-      text: "Moritz-Maria von Igelfeld"
-      icon: favicon.ico
-      iconHeight: 18
+  assets:
+    disableScrollBarStyle: true
+  cover:
+    hiddenInList: true
+    hiddenInSingle: true
+  label:
+    text: "黄平洋"
+    icon: favicon.ico
+    iconHeight: 18
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: autumn
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
