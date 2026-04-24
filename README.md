@@ -1,6 +1,6 @@
 # 黄平洋的个人学术主页
 
-这是黄平洋的个人学术主页，基于 [pmichaillat/hugo-website](https://github.com/pmichaillat/hugo-website) 与 Hugo / PaperMod 构建，用于展示教育背景、科研经历、论文成果、竞赛荣誉和联系方式。网站保持简约、干净、轻量，适合用于保研联系导师和申请研究生。
+这是黄平洋的个人学术主页，基于 [pmichaillat/hugo-website](https://github.com/pmichaillat/hugo-website) 与 Hugo / PaperMod 构建，用于展示教育背景、科研经历、论文成果、竞赛荣誉和联系方式。
 
 ## 本地预览
 
