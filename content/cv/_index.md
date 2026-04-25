@@ -1,12 +1,14 @@
----
+﻿---
 title: "个人简历"
 hideMeta: true
 ---
 
-可在此下载我的最新个人简历 PDF。
+<div class="section-lead">
+  <p class="eyebrow">CV</p>
+  <h2>个人简历</h2>
+  <p>可在此下载我的最新个人简历 PDF。</p>
+</div>
 
 <p>
-  <a class="academic-button" href="/cv.pdf">下载个人简历 PDF</a>
+  <a class="academic-button primary" href="/cv.pdf">下载个人简历 PDF</a>
 </p>
-
-如需更新简历，请将新的 PDF 文件放入 `static/cv.pdf`。

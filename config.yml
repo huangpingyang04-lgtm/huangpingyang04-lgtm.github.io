@@ -1,4 +1,4 @@
-# GitHub Pages 地址。仓库名或自定义域名变化后，请同步替换这里。
+﻿# GitHub Pages 地址。仓库名或自定义域名变化后，请同步替换这里。
 baseURL: "https://huangpingyang04-lgtm.github.io/"
 title: 黄平洋
 theme: PaperMod
@@ -33,9 +33,6 @@ menu:
     - name: 简历
       url: cv/
       weight: 7
-    - name: 联系方式
-      url: contact/
-      weight: 8
 
 params:
   description: "黄平洋的个人学术主页，用于展示教育背景、科研经历、论文成果、竞赛荣誉和联系方式。"
@@ -63,28 +60,33 @@ params:
   profileMode:
     enabled: true
     title: 黄平洋
-    subtitle: "大连理工大学光电信息科学与工程专业本科生。目前处于保研升学阶段，主要关注第三代半导体器件、忆阻器、分布式光纤传感与轻量化智能模型等方向，正在开展 Ag/GaN/ITO 忆阻器、DAS 多事件识别及器件约束神经网络相关研究。"
+    subtitle: "**大连理工大学光电信息科学与工程专业本科生**。目前处于保研升学阶段，关注第三代半导体器件、忆阻器、分布式光纤传感与轻量化智能模型等方向，正在开展 **Ag/GaN/ITO 忆阻器**、**DAS 多事件识别** 及器件约束神经网络相关研究。"
+    contact:
+      - label: 邮箱
+        value: hpy_dut@163.com
+        url: mailto:hpy_dut@163.com
+      - label: GitHub
+        value: "<我的GitHub链接>"
+        url: "#"
     # 头像预留位置：将个人头像放入 static/images/avatar.jpg 后，可取消下一行注释。
     # imageUrl: "images/avatar.jpg"
     imageWidth: 160
     imageHeight: 160
     buttons:
+      - name: 教育背景
+        url: education/
       - name: 科研经历
         url: research/
       - name: 论文与成果
         url: publications/
+      - name: 竞赛与荣誉
+        url: honors/
+      - name: 综合素质
+        url: qualities/
       - name: 下载个人简历 PDF
         url: cv.pdf
-      - name: 联系我
-        url: contact/
 
-  socialIcons:
-    - name: CV
-      url: cv.pdf
-    - name: Email
-      url: mailto:hpy_dut@163.com
-    - name: GitHub
-      url: "#"
+  socialIcons: []
 
   assets:
     disableScrollBarStyle: true

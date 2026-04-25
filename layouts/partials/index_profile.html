@@ -1,0 +1,43 @@
+﻿<div class="profile">
+    {{- with site.Params.profileMode }}
+    <div class="profile_inner academic-home">
+        {{- if .imageUrl -}}
+        {{- $img := "" }}
+        {{- if not (urls.Parse .imageUrl).IsAbs }}
+            {{- $img = resources.Get .imageUrl }}
+        {{- end }}
+        {{- if $img }}
+            <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        {{- else }}
+            <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        {{- end }}
+        {{- end }}
+        <p class="home-kicker">保研联系导师 / 研究生申请</p>
+        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        <span class="home-subtitle">{{ .subtitle | markdownify }}</span>
+
+        {{- with .contact }}
+        <div class="home-contact">
+            {{- range . }}
+            <a href="{{ .url }}" rel="noopener">
+                <strong>{{ .label }}</strong>
+                <span>{{ .value }}</span>
+            </a>
+            {{- end }}
+        </div>
+        {{- end }}
+
+        {{- with .buttons }}
+        <div class="buttons home-buttons">
+            {{- range . }}
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+                <span class="button-inner">{{ .name }}</span>
+            </a>
+            {{- end }}
+        </div>
+        {{- end }}
+    </div>
+    {{- end}}
+</div>
