@@ -90,6 +90,7 @@ params:
 
   assets:
     disableScrollBarStyle: true
+    disableFingerprinting: true
   cover:
     hiddenInList: true
     hiddenInSingle: true
@@ -109,3 +110,4 @@ markup:
     endLevel: 2
     ordered: false
     startLevel: 2
+

@@ -234,18 +234,36 @@ figcaption {
   margin: 0;
 }
 
+.research-visuals figure {
+  display: flex;
+  flex-direction: column;
+}
+
 .research-visuals img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 280px;
+  object-fit: contain;
   border: 1px solid var(--border);
   border-radius: 8px;
   background: #fff;
+  padding: 8px;
+}
+
+.research-visuals.two-col img {
+  height: 300px;
+}
+
+.research-visuals.three-col img {
+  height: 230px;
+}
+
+.research-visuals.single img {
+  height: 360px;
 }
 
 .research-visuals.compact img {
-  max-height: 360px;
-  object-fit: contain;
+  height: 280px;
 }
 
 figcaption {
@@ -293,6 +311,14 @@ figcaption {
 }
 
 @media (max-width: 820px) {
+  .research-visuals img,
+  .research-visuals.two-col img,
+  .research-visuals.three-col img,
+  .research-visuals.single img,
+  .research-visuals.compact img {
+    height: 220px;
+  }
+
   .metric-strip,
   .academic-grid,
   .research-columns,
@@ -320,3 +346,4 @@ figcaption {
     width: 100%;
   }
 }
+
