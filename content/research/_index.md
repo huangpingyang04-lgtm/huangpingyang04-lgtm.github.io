@@ -56,18 +56,14 @@ hideMeta: true
     <span class="status-tag">DAS / CNN / BNN / 忆阻器约束</span>
   </div>
 
-  <div class="research-visuals three-col">
+  <div class="research-visuals two-col wide-figures">
     <figure>
-      <img src="/images/research/das-stft.png" alt="DAS 信号 STFT 时频变换示意">
-      <figcaption>从原始相位差 / 强度差信号到 STFT 时频图，形成可复现实验链路。</figcaption>
+      <img src="/images/research/das-overview.png" alt="DAS 多时频融合与忆阻器感知 BNN 框架图">
+      <figcaption>从 pbi-OTDR 原始时空信号出发，融合 STFT、CWT、Env-STFT 与空间包络特征，并比较 Digital BNN 与 Memristor-aware BNN。</figcaption>
     </figure>
     <figure>
-      <img src="/images/research/das-confusion.png" alt="DAS 事件识别混淆矩阵示意">
-      <figcaption>自动导出混淆矩阵、分类报告与错分样本清单，用于误差诊断。</figcaption>
-    </figure>
-    <figure>
-      <img src="/images/research/das-metrics.png" alt="DAS 事件识别模型指标对比表">
-      <figcaption>围绕 Accuracy、Macro-F1、模型大小、推理效率等指标进行横向比较。</figcaption>
+      <img src="/images/research/das-monte-carlo.png" alt="忆阻器感知 DAS 模型 Monte Carlo 稳定性与混淆矩阵图">
+      <figcaption>在器件 I-V 响应扰动下进行 Monte Carlo 稳定性评估，并结合混淆矩阵观察多事件分类表现。</figcaption>
     </figure>
   </div>
 
@@ -156,3 +152,4 @@ hideMeta: true
     <strong>训练收获：</strong>这段经历让我把“调参”理解为面向复杂系统的工艺窗口搜索，可迁移到膜厚、退火温度、刻蚀功率、器件尺寸等光电器件研发场景中的参数优化。
   </div>
 </div>
+
