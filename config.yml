@@ -60,13 +60,17 @@ params:
   profileMode:
     enabled: true
     title: 黄平洋
-    subtitle: "**大连理工大学光电信息科学与工程专业本科生**，关注第三代半导体器件、忆阻器、分布式光纤传感与轻量化智能模型等方向，正在开展 **Ag/GaN/ITO 忆阻器**、**DAS 多事件识别** 及器件约束神经网络相关研究。"
+    subtitle: "**大连理工大学光电信息科学与工程专业本科生**，成绩排名**专业第 1/84**。主要关注**新型半导体/光电器件、阻变存储器、第三代半导体微纳加工、分布式光纤传感智能识别与轻量化神经网络**等方向。目前正在开展 **Ag/GaN/ITO 忆阻器界面调控与阻变机理研究**、**基于多时频融合与器件映射轻量模型的 DAS 多事件识别研究**，以及 **GaN HEMT 微纳加工与微流控异质集成生物芯片研究**，逐步形成“材料—器件—工艺—电路—算法”交叉融合的研究兴趣。"
+    subtitleEnglish: "I am an undergraduate student majoring in Optoelectronic Information Science and Engineering at Dalian University of Technology, with research interests in emerging semiconductor/optoelectronic devices, resistive memory, GaN-based micro/nano fabrication, distributed acoustic sensing, and lightweight intelligent models. My current research focuses on interface-engineered Ag/GaN/ITO memristors, DAS multi-event recognition with multi-time-frequency fusion and device-aware neural network mapping, and GaN HEMT-based microfluidic heterogeneous biochips. I am particularly interested in interdisciplinary research across materials, devices, circuits, physical computing, and intelligent algorithms."
     contact:
       - label: 邮箱
         value: hpy_dut@163.com
         url: mailto:hpy_dut@163.com
-    # 头像预留位置：将个人头像放入 static/images/avatar.jpg 后，可取消下一行注释。
-    # imageUrl: "images/avatar.jpg"
+      - label: 电话 / wx
+        value: "18830700235"
+        url: "tel:18830700235"
+    imageUrl: "images/avatar.jpg"
+    imageTitle: "黄平洋"
     imageWidth: 160
     imageHeight: 160
     buttons:
@@ -107,5 +111,7 @@ markup:
     endLevel: 2
     ordered: false
     startLevel: 2
+
+
 
 

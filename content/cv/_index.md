@@ -5,7 +5,6 @@ hideMeta: true
 
 <div class="section-lead">
   <p class="eyebrow">CV</p>
-  <h2>个人简历</h2>
   <p>可在此下载我的最新个人简历 PDF。</p>
 </div>
 

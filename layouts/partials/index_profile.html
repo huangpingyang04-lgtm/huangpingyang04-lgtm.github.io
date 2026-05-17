@@ -1,26 +1,31 @@
 ﻿<div class="profile">
     {{- with site.Params.profileMode }}
     <div class="profile_inner academic-home">
+        <h1>{{ .title | default site.Title | markdownify }}</h1>
         {{- if .imageUrl -}}
         {{- $img := "" }}
         {{- if not (urls.Parse .imageUrl).IsAbs }}
             {{- $img = resources.Get .imageUrl }}
         {{- end }}
+        <div class="home-avatar-wrap">
         {{- if $img }}
-            <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+            <img class="home-avatar" draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
                 height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- else }}
-            <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+            <img class="home-avatar" draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
                 height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
+        </div>
         {{- end }}
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
         <span class="home-subtitle">{{ .subtitle | markdownify }}</span>
+        {{- with .subtitleEnglish }}
+        <span class="home-subtitle home-subtitle-en">{{ . | markdownify }}</span>
+        {{- end }}
 
         {{- with .contact }}
         <div class="home-contact">
             {{- range . }}
-            <a href="{{ .url }}" rel="noopener">
+            <a href="{{ .url | safeURL }}" rel="noopener">
                 <strong>{{ .label }}</strong>
                 <span>{{ .value }}</span>
             </a>
