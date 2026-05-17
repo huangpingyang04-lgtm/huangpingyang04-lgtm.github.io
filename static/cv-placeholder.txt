@@ -1,1 +1,0 @@
-请将正式个人简历 PDF 放在 static/cv.pdf。
