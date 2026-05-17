@@ -60,14 +60,11 @@ params:
   profileMode:
     enabled: true
     title: 黄平洋
-    subtitle: "**大连理工大学光电信息科学与工程专业本科生**。目前处于保研升学阶段，关注第三代半导体器件、忆阻器、分布式光纤传感与轻量化智能模型等方向，正在开展 **Ag/GaN/ITO 忆阻器**、**DAS 多事件识别** 及器件约束神经网络相关研究。"
+    subtitle: "**大连理工大学光电信息科学与工程专业本科生**，关注第三代半导体器件、忆阻器、分布式光纤传感与轻量化智能模型等方向，正在开展 **Ag/GaN/ITO 忆阻器**、**DAS 多事件识别** 及器件约束神经网络相关研究。"
     contact:
       - label: 邮箱
         value: hpy_dut@163.com
         url: mailto:hpy_dut@163.com
-      - label: GitHub
-        value: "<我的GitHub链接>"
-        url: "#"
     # 头像预留位置：将个人头像放入 static/images/avatar.jpg 后，可取消下一行注释。
     # imageUrl: "images/avatar.jpg"
     imageWidth: 160
@@ -110,4 +107,5 @@ markup:
     endLevel: 2
     ordered: false
     startLevel: 2
+
 
