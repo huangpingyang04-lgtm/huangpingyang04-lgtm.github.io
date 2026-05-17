@@ -56,7 +56,7 @@ hideMeta: true
     <span class="status-tag">DAS / CNN / BNN / 器件映射</span>
   </div>
 
-  <div class="research-visuals single wide-figures">
+  <div class="research-visuals two-col wide-figures">
     <figure>
       <img src="/images/research/das-overview.png" alt="DAS 多时频融合与忆阻器感知 BNN 框架图">
       <figcaption>面向 DAS 多事件识别的四通道特征融合与 Digital BNN / Memristor-aware BNN 框架。</figcaption>
@@ -152,3 +152,4 @@ hideMeta: true
     <strong>阶段成果：</strong>论文已被自然语言处理顶会 ACL 2026 接收（CCF-A，第二作者），Meta：4.0 / 5.0。
   </div>
 </div>
+

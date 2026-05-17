@@ -23,10 +23,10 @@ hideMeta: true
 
 ## 文体活动
 
-<div class="academic-grid">
-  <div class="academic-card">
-    <h3>运动会成绩</h3>
+<div class="publication-list">
+  <div class="publication-item">
     <ul>
+      <li>学院篮球队队员</li>
       <li>2024 刘长春运动会三级跳，校第一名</li>
       <li>2024 刘长春运动会 200 米，校第二名</li>
       <li>2024 刘长春运动会 8×200 米，校第四名</li>
@@ -34,14 +34,7 @@ hideMeta: true
       <li>2025 刘长春运动会 200 米，校第二名</li>
       <li>2025 刘长春运动会三级跳，校第三名</li>
       <li>2025 刘长春运动会 4×100 米，校第四名</li>
-    </ul>
-  </div>
-  <div class="academic-card">
-    <h3>综合参与</h3>
-    <ul>
-      <li>学院篮球队队员</li>
       <li>获评大连理工大学“<strong>刘长春之星</strong>”称号</li>
-      <li>在集体活动中能够兼顾参与、组织与协调工作</li>
     </ul>
   </div>
 </div>
@@ -51,3 +44,4 @@ hideMeta: true
 <div class="note-band">
   掌握 <strong>PS、秀米</strong> 等工具，具备海报制作、文案撰写、新闻稿发布、公众号制作与推送能力，能够支持科研展示、活动宣传和内容编辑等工作。
 </div>
+

@@ -41,20 +41,15 @@ hideMeta: true
 | 现代测量技术 | 92 | 模拟电子线路实验 | 91 | 先进材料与器件 | 90 |
 
 </div>
-
-<div class="note-band">
-  <strong>课程筛选说明：</strong>上表主要保留数理基础、光电专业、电子电路、器件工艺与实验实践类课程；体育、劳动、军事训练等非专业核心课程未列入。
-</div>
-
-## 荣誉简述
+`n## 荣誉简述
 
 <div class="academic-grid">
   <div class="academic-card">
     <h3>奖学金与荣誉</h3>
     <ul>
-      <li><strong>连续两年获得国家奖学金</strong>，均排名第 1</li>
-      <li><strong>优秀本科生基础研究课题</strong>，全学院 1 人</li>
-      <li><strong>大连理工大学优秀学生标兵提名</strong>（全校本科生 17 人）</li>
+      <li><strong>连续两年获得国家奖学金</strong><br>均排名第 1</li>
+      <li><strong>优秀本科生基础研究课题</strong><br>全学院 1 人</li>
+      <li><strong>大连理工大学优秀学生标兵提名</strong><br>全校本科生 17 人</li>
       <li>学习优秀奖学金、科技创新奖学金等多项单项奖学金</li>
       <li>连续两年获得校优秀三好学生、校优秀学生干部、校优秀共青团员</li>
     </ul>
@@ -68,3 +63,4 @@ hideMeta: true
     </ul>
   </div>
 </div>
+
